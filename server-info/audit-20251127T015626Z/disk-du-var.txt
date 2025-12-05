@@ -1,0 +1,40 @@
+=== Command: du -sh /var
+
+du: cannot read directory '/var/log/samba/cores': Permission denied
+du: cannot read directory '/var/log/private': Permission denied
+du: cannot read directory '/var/lib/caddy': Permission denied
+du: cannot read directory '/var/lib/samba/usershares': Permission denied
+du: cannot read directory '/var/lib/containerd': Permission denied
+du: cannot read directory '/var/lib/snapd/void': Permission denied
+du: cannot read directory '/var/lib/snapd/cookie': Permission denied
+du: cannot read directory '/var/lib/snapd/cache': Permission denied
+du: cannot read directory '/var/lib/private': Permission denied
+du: cannot read directory '/var/lib/docker': Permission denied
+du: cannot read directory '/var/lib/update-notifier/package-data-downloads/partial': Permission denied
+du: cannot read directory '/var/lib/polkit-1': Permission denied
+du: cannot read directory '/var/lib/apt/lists/partial': Permission denied
+du: cannot read directory '/var/lib/fwupd/gnupg': Permission denied
+du: cannot read directory '/var/lib/udisks2': Permission denied
+du: cannot read directory '/var/lib/ubuntu-advantage/apt-esm/var/lib/apt/lists/partial': Permission denied
+du: cannot read directory '/var/lib/ubuntu-advantage/private': Permission denied
+du: cannot read directory '/var/spool/rsyslog': Permission denied
+du: cannot read directory '/var/spool/cron/crontabs': Permission denied
+du: cannot read directory '/var/cache/apparmor/2693c843.0': Permission denied
+du: cannot read directory '/var/cache/private': Permission denied
+du: cannot read directory '/var/cache/ldconfig': Permission denied
+du: cannot read directory '/var/cache/pollinate': Permission denied
+du: cannot read directory '/var/cache/apt/archives/partial': Permission denied
+du: cannot read directory '/var/snap/canonical-livepatch/common/locks': Permission denied
+du: cannot read directory '/var/tmp/systemd-private-f71f576ad227483da84faa67d0240da9-upower.service-2pUGU9': Permission denied
+du: cannot read directory '/var/tmp/systemd-private-f71f576ad227483da84faa67d0240da9-systemd-hostnamed.service-ZXlioE': Permission denied
+du: cannot read directory '/var/tmp/systemd-private-f71f576ad227483da84faa67d0240da9-ModemManager.service-5BCJf6': Permission denied
+du: cannot read directory '/var/tmp/systemd-private-f71f576ad227483da84faa67d0240da9-systemd-timesyncd.service-V27F3K': Permission denied
+du: cannot read directory '/var/tmp/systemd-private-f71f576ad227483da84faa67d0240da9-bolt.service-kWuQKh': Permission denied
+du: cannot read directory '/var/tmp/systemd-private-f71f576ad227483da84faa67d0240da9-caddy.service-ry4ZhQ': Permission denied
+du: cannot read directory '/var/tmp/systemd-private-f71f576ad227483da84faa67d0240da9-systemd-logind.service-xwTVc6': Permission denied
+du: cannot read directory '/var/tmp/systemd-private-f71f576ad227483da84faa67d0240da9-systemd-resolved.service-NhDXJz': Permission denied
+du: cannot read directory '/var/tmp/systemd-private-f71f576ad227483da84faa67d0240da9-fwupd.service-8LINQE': Permission denied
+du: cannot read directory '/var/tmp/systemd-private-f71f576ad227483da84faa67d0240da9-polkit.service-AbbL4t': Permission denied
+1.5G	/var
+
+=== Exit: 1

@@ -1,0 +1,12 @@
+#!/bin/bash
+set -e
+
+# Sync OneDrives into cache
+/usr/local/bin/rclone copy OneDrive:/ /mnt/cache/onedrive-all --exclude "Personal Vault/**" --log-file=/var/log/rclone-aziz.log --log-level=ERROR
+/usr/local/bin/rclone copy mounaOneDrive:/ /mnt/cache/onedrive-all --exclude "Personal Vault/**" --log-file=/var/log/rclone-mouna.log --log-level=ERROR
+
+# Run ledger pipeline
+python3 /usr/local/bin/photoprism_ledger.py scan-cache
+python3 /usr/local/bin/photoprism_ledger.py stage-pending --limit 10000
+python3 /usr/local/bin/photoprism_ledger.py import-staging
+python3 /usr/local/bin/photoprism_ledger.py clear-staging

@@ -1,0 +1,504 @@
+=== Command: journalctl -b -n 500 --no-pager
+
+Nov 26 21:25:01 home-server-1 CRON[21561]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 26 21:25:01 home-server-1 CRON[21560]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 21:25:01 home-server-1 CRON[21562]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 21:25:01 home-server-1 CRON[21559]: pam_unix(cron:session): session closed for user root
+Nov 26 21:25:01 home-server-1 CRON[21560]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 21:30:01 home-server-1 CRON[22137]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 21:30:01 home-server-1 CRON[22138]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 21:30:01 home-server-1 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Nov 26 21:30:01 home-server-1 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 26 21:30:01 home-server-1 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 26 21:30:01 home-server-1 CRON[22137]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 21:35:01 home-server-1 CRON[22714]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 26 21:35:01 home-server-1 CRON[22717]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 26 21:35:01 home-server-1 CRON[22715]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 21:35:01 home-server-1 CRON[22718]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 21:35:01 home-server-1 CRON[22714]: pam_unix(cron:session): session closed for user root
+Nov 26 21:35:01 home-server-1 CRON[22715]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 21:40:01 home-server-1 CRON[23294]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 21:40:01 home-server-1 CRON[23296]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 21:40:01 home-server-1 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Nov 26 21:40:01 home-server-1 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 26 21:40:01 home-server-1 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 26 21:40:01 home-server-1 CRON[23294]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 21:45:01 home-server-1 CRON[23925]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 26 21:45:01 home-server-1 CRON[23927]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 26 21:45:01 home-server-1 CRON[23926]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 21:45:01 home-server-1 CRON[23928]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 21:45:01 home-server-1 CRON[23925]: pam_unix(cron:session): session closed for user root
+Nov 26 21:45:01 home-server-1 CRON[23926]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 21:49:11 home-server-1 canonical-livepatch.canonical-livepatchd[1005]: Client information is recent, not refreshing.
+Nov 26 21:50:01 home-server-1 CRON[24587]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 21:50:01 home-server-1 CRON[24589]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 21:50:01 home-server-1 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Nov 26 21:50:01 home-server-1 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 26 21:50:01 home-server-1 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 26 21:50:01 home-server-1 CRON[24587]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 21:55:01 home-server-1 CRON[25328]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 26 21:55:01 home-server-1 CRON[25330]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 26 21:55:01 home-server-1 CRON[25329]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 21:55:01 home-server-1 CRON[25331]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 21:55:01 home-server-1 CRON[25328]: pam_unix(cron:session): session closed for user root
+Nov 26 21:55:01 home-server-1 CRON[25329]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 22:00:02 home-server-1 CRON[25914]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 22:00:02 home-server-1 CRON[25916]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 22:00:02 home-server-1 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Nov 26 22:00:02 home-server-1 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 26 22:00:02 home-server-1 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 26 22:00:02 home-server-1 CRON[25914]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 22:05:01 home-server-1 CRON[26494]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 26 22:05:01 home-server-1 CRON[26495]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 22:05:01 home-server-1 CRON[26496]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 26 22:05:01 home-server-1 CRON[26497]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 22:05:01 home-server-1 CRON[26494]: pam_unix(cron:session): session closed for user root
+Nov 26 22:05:01 home-server-1 CRON[26495]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 22:10:01 home-server-1 CRON[27074]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 22:10:01 home-server-1 CRON[27075]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 22:10:01 home-server-1 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Nov 26 22:10:01 home-server-1 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 26 22:10:01 home-server-1 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 26 22:10:01 home-server-1 CRON[27074]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 22:15:01 home-server-1 CRON[27658]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 26 22:15:01 home-server-1 CRON[27661]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 26 22:15:01 home-server-1 CRON[27659]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 22:15:01 home-server-1 CRON[27662]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 22:15:01 home-server-1 CRON[27658]: pam_unix(cron:session): session closed for user root
+Nov 26 22:15:01 home-server-1 CRON[27659]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 22:16:54 home-server-1 systemd[1]: Starting fwupd-refresh.service - Refresh fwupd metadata and update motd...
+Nov 26 22:16:54 home-server-1 systemd[1]: fwupd-refresh.service: Deactivated successfully.
+Nov 26 22:16:54 home-server-1 systemd[1]: Finished fwupd-refresh.service - Refresh fwupd metadata and update motd.
+Nov 26 22:17:01 home-server-1 CRON[27903]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 26 22:17:01 home-server-1 CRON[27904]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Nov 26 22:17:01 home-server-1 CRON[27903]: pam_unix(cron:session): session closed for user root
+Nov 26 22:20:01 home-server-1 CRON[28250]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 22:20:01 home-server-1 CRON[28252]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 22:20:01 home-server-1 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Nov 26 22:20:01 home-server-1 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 26 22:20:01 home-server-1 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 26 22:20:01 home-server-1 CRON[28250]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 22:25:01 home-server-1 CRON[28827]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 26 22:25:01 home-server-1 CRON[28828]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 22:25:01 home-server-1 CRON[28829]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 26 22:25:01 home-server-1 CRON[28830]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 22:25:01 home-server-1 CRON[28827]: pam_unix(cron:session): session closed for user root
+Nov 26 22:25:01 home-server-1 CRON[28828]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 22:30:01 home-server-1 CRON[29407]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 22:30:01 home-server-1 CRON[29408]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 22:30:01 home-server-1 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Nov 26 22:30:01 home-server-1 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 26 22:30:01 home-server-1 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 26 22:30:01 home-server-1 CRON[29407]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 22:35:01 home-server-1 CRON[29984]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 26 22:35:01 home-server-1 CRON[29987]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 26 22:35:01 home-server-1 CRON[29985]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 22:35:01 home-server-1 CRON[29988]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 22:35:01 home-server-1 CRON[29984]: pam_unix(cron:session): session closed for user root
+Nov 26 22:35:01 home-server-1 CRON[29985]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 22:40:01 home-server-1 CRON[30564]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 22:40:01 home-server-1 CRON[30565]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 22:40:01 home-server-1 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Nov 26 22:40:01 home-server-1 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 26 22:40:01 home-server-1 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 26 22:40:01 home-server-1 CRON[30564]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 22:45:01 home-server-1 CRON[31147]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 26 22:45:01 home-server-1 CRON[31150]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 26 22:45:01 home-server-1 CRON[31148]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 22:45:01 home-server-1 CRON[31151]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 22:45:01 home-server-1 CRON[31147]: pam_unix(cron:session): session closed for user root
+Nov 26 22:45:01 home-server-1 CRON[31148]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 22:50:01 home-server-1 CRON[31726]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 22:50:01 home-server-1 CRON[31728]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 22:50:01 home-server-1 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Nov 26 22:50:01 home-server-1 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 26 22:50:01 home-server-1 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 26 22:50:01 home-server-1 CRON[31726]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 22:55:01 home-server-1 CRON[32303]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 26 22:55:01 home-server-1 CRON[32305]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 26 22:55:01 home-server-1 CRON[32304]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 22:55:01 home-server-1 CRON[32306]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 22:55:01 home-server-1 CRON[32303]: pam_unix(cron:session): session closed for user root
+Nov 26 22:55:02 home-server-1 CRON[32304]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 22:57:42 home-server-1 kernel: [UFW BLOCK] IN=enp3s0f0 OUT= MAC=01:00:5e:00:00:01:80:7d:3a:31:85:43:08:00 SRC=192.168.1.172 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=2 PROTO=2 
+Nov 26 23:00:01 home-server-1 CRON[32889]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 23:00:01 home-server-1 CRON[32890]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 23:00:01 home-server-1 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Nov 26 23:00:01 home-server-1 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 26 23:00:01 home-server-1 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 26 23:00:01 home-server-1 CRON[32889]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 23:00:53 home-server-1 canonical-livepatch.canonical-livepatchd[1005]: Client information is recent, not refreshing.
+Nov 26 23:05:01 home-server-1 CRON[33471]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 26 23:05:01 home-server-1 CRON[33473]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 26 23:05:01 home-server-1 CRON[33472]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 23:05:01 home-server-1 CRON[33474]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 23:05:01 home-server-1 CRON[33471]: pam_unix(cron:session): session closed for user root
+Nov 26 23:05:01 home-server-1 CRON[33472]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 23:10:01 home-server-1 CRON[34045]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 23:10:01 home-server-1 CRON[34046]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 23:10:01 home-server-1 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Nov 26 23:10:01 home-server-1 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 26 23:10:01 home-server-1 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 26 23:10:01 home-server-1 CRON[34045]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 23:10:21 home-server-1 systemd[1]: Starting fwupd-refresh.service - Refresh fwupd metadata and update motd...
+Nov 26 23:10:21 home-server-1 systemd[1]: fwupd-refresh.service: Deactivated successfully.
+Nov 26 23:10:21 home-server-1 systemd[1]: Finished fwupd-refresh.service - Refresh fwupd metadata and update motd.
+Nov 26 23:15:01 home-server-1 CRON[34633]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 26 23:15:01 home-server-1 CRON[34636]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 26 23:15:01 home-server-1 CRON[34634]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 23:15:01 home-server-1 CRON[34637]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 23:15:01 home-server-1 CRON[34633]: pam_unix(cron:session): session closed for user root
+Nov 26 23:15:01 home-server-1 CRON[34634]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 23:17:01 home-server-1 CRON[34867]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 26 23:17:01 home-server-1 CRON[34868]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Nov 26 23:17:01 home-server-1 CRON[34867]: pam_unix(cron:session): session closed for user root
+Nov 26 23:20:01 home-server-1 CRON[35210]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 23:20:01 home-server-1 CRON[35212]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 23:20:01 home-server-1 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Nov 26 23:20:01 home-server-1 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 26 23:20:01 home-server-1 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 26 23:20:01 home-server-1 CRON[35210]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 23:25:01 home-server-1 CRON[35785]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 26 23:25:01 home-server-1 CRON[35787]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 26 23:25:01 home-server-1 CRON[35786]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 23:25:01 home-server-1 CRON[35788]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 23:25:01 home-server-1 CRON[35785]: pam_unix(cron:session): session closed for user root
+Nov 26 23:25:01 home-server-1 CRON[35786]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 23:30:01 home-server-1 CRON[36368]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 23:30:01 home-server-1 CRON[36370]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 23:30:01 home-server-1 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Nov 26 23:30:01 home-server-1 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 26 23:30:01 home-server-1 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 26 23:30:01 home-server-1 CRON[36368]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 23:35:01 home-server-1 CRON[36928]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 26 23:35:01 home-server-1 CRON[36931]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 26 23:35:01 home-server-1 CRON[36929]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 23:35:01 home-server-1 CRON[36932]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 23:35:01 home-server-1 CRON[36928]: pam_unix(cron:session): session closed for user root
+Nov 26 23:35:01 home-server-1 CRON[36929]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 23:40:01 home-server-1 CRON[37510]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 23:40:01 home-server-1 CRON[37511]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 23:40:01 home-server-1 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Nov 26 23:40:01 home-server-1 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 26 23:40:01 home-server-1 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 26 23:40:01 home-server-1 CRON[37510]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 23:45:01 home-server-1 CRON[38091]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 26 23:45:01 home-server-1 CRON[38094]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 26 23:45:01 home-server-1 CRON[38092]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 23:45:01 home-server-1 CRON[38095]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 23:45:01 home-server-1 CRON[38091]: pam_unix(cron:session): session closed for user root
+Nov 26 23:45:01 home-server-1 CRON[38092]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 23:47:24 home-server-1 canonical-livepatch.canonical-livepatchd[1005]: Client information is recent, not refreshing.
+Nov 26 23:50:01 home-server-1 CRON[38668]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 23:50:01 home-server-1 CRON[38670]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 23:50:01 home-server-1 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Nov 26 23:50:01 home-server-1 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 26 23:50:01 home-server-1 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 26 23:50:01 home-server-1 CRON[38668]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 23:55:01 home-server-1 CRON[39249]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 26 23:55:01 home-server-1 CRON[39250]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 26 23:55:01 home-server-1 CRON[39251]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 26 23:55:01 home-server-1 CRON[39252]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 26 23:55:01 home-server-1 CRON[39249]: pam_unix(cron:session): session closed for user root
+Nov 26 23:55:02 home-server-1 CRON[39250]: pam_unix(cron:session): session closed for user azizelo
+Nov 26 23:59:01 home-server-1 CRON[39719]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 26 23:59:01 home-server-1 CRON[39720]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 60 2)
+Nov 26 23:59:01 home-server-1 CRON[39719]: pam_unix(cron:session): session closed for user root
+Nov 27 00:00:01 home-server-1 CRON[39832]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 00:00:01 home-server-1 CRON[39833]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 27 00:00:01 home-server-1 systemd[1]: Starting dpkg-db-backup.service - Daily dpkg database backup service...
+Nov 27 00:00:01 home-server-1 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Nov 27 00:00:01 home-server-1 systemd[1]: Starting logrotate.service - Rotate log files...
+Nov 27 00:00:01 home-server-1 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 27 00:00:01 home-server-1 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 27 00:00:01 home-server-1 systemd[1]: logrotate.service: Deactivated successfully.
+Nov 27 00:00:01 home-server-1 systemd[1]: Finished logrotate.service - Rotate log files.
+Nov 27 00:00:01 home-server-1 CRON[39832]: pam_unix(cron:session): session closed for user azizelo
+Nov 27 00:00:01 home-server-1 systemd[1]: dpkg-db-backup.service: Deactivated successfully.
+Nov 27 00:00:01 home-server-1 systemd[1]: Finished dpkg-db-backup.service - Daily dpkg database backup service.
+Nov 27 00:05:01 home-server-1 CRON[40488]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 27 00:05:01 home-server-1 CRON[40489]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 00:05:01 home-server-1 CRON[40490]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 27 00:05:01 home-server-1 CRON[40491]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 27 00:05:01 home-server-1 CRON[40488]: pam_unix(cron:session): session closed for user root
+Nov 27 00:05:01 home-server-1 CRON[40489]: pam_unix(cron:session): session closed for user azizelo
+Nov 27 00:07:09 home-server-1 systemd[1]: Starting sysstat-summary.service - Generate a daily summary of process accounting...
+Nov 27 00:07:09 home-server-1 systemd[1]: sysstat-summary.service: Deactivated successfully.
+Nov 27 00:07:09 home-server-1 systemd[1]: Finished sysstat-summary.service - Generate a daily summary of process accounting.
+Nov 27 00:10:01 home-server-1 CRON[41075]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 00:10:01 home-server-1 CRON[41077]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 27 00:10:01 home-server-1 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Nov 27 00:10:01 home-server-1 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 27 00:10:01 home-server-1 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 27 00:10:01 home-server-1 CRON[41075]: pam_unix(cron:session): session closed for user azizelo
+Nov 27 00:15:01 home-server-1 CRON[41656]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 27 00:15:01 home-server-1 CRON[41659]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 27 00:15:01 home-server-1 CRON[41657]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 00:15:01 home-server-1 CRON[41660]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 27 00:15:01 home-server-1 CRON[41656]: pam_unix(cron:session): session closed for user root
+Nov 27 00:15:01 home-server-1 CRON[41657]: pam_unix(cron:session): session closed for user azizelo
+Nov 27 00:17:01 home-server-1 CRON[41892]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 27 00:17:01 home-server-1 CRON[41893]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Nov 27 00:17:01 home-server-1 CRON[41892]: pam_unix(cron:session): session closed for user root
+Nov 27 00:20:01 home-server-1 CRON[42236]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 00:20:01 home-server-1 CRON[42237]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 27 00:20:01 home-server-1 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Nov 27 00:20:01 home-server-1 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 27 00:20:01 home-server-1 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 27 00:20:01 home-server-1 CRON[42236]: pam_unix(cron:session): session closed for user azizelo
+Nov 27 00:25:01 home-server-1 CRON[42812]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 27 00:25:01 home-server-1 CRON[42815]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 27 00:25:01 home-server-1 CRON[42813]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 00:25:01 home-server-1 CRON[42816]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 27 00:25:01 home-server-1 CRON[42812]: pam_unix(cron:session): session closed for user root
+Nov 27 00:25:01 home-server-1 CRON[42813]: pam_unix(cron:session): session closed for user azizelo
+Nov 27 00:30:01 home-server-1 CRON[43393]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 00:30:01 home-server-1 CRON[43395]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 27 00:30:01 home-server-1 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Nov 27 00:30:01 home-server-1 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 27 00:30:01 home-server-1 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 27 00:30:01 home-server-1 CRON[43393]: pam_unix(cron:session): session closed for user azizelo
+Nov 27 00:34:30 home-server-1 systemd[1]: Starting fwupd-refresh.service - Refresh fwupd metadata and update motd...
+Nov 27 00:34:30 home-server-1 systemd[1]: fwupd-refresh.service: Deactivated successfully.
+Nov 27 00:34:30 home-server-1 systemd[1]: Finished fwupd-refresh.service - Refresh fwupd metadata and update motd.
+Nov 27 00:35:01 home-server-1 CRON[43977]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 27 00:35:01 home-server-1 CRON[43979]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 27 00:35:01 home-server-1 CRON[43978]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 00:35:01 home-server-1 CRON[43980]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 27 00:35:01 home-server-1 CRON[43977]: pam_unix(cron:session): session closed for user root
+Nov 27 00:35:01 home-server-1 CRON[43978]: pam_unix(cron:session): session closed for user azizelo
+Nov 27 00:40:01 home-server-1 CRON[44553]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 00:40:01 home-server-1 CRON[44555]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 27 00:40:01 home-server-1 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Nov 27 00:40:01 home-server-1 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 27 00:40:01 home-server-1 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 27 00:40:01 home-server-1 CRON[44553]: pam_unix(cron:session): session closed for user azizelo
+Nov 27 00:45:01 home-server-1 CRON[45135]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 27 00:45:01 home-server-1 CRON[45138]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 27 00:45:01 home-server-1 CRON[45136]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 00:45:01 home-server-1 CRON[45139]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 27 00:45:01 home-server-1 CRON[45135]: pam_unix(cron:session): session closed for user root
+Nov 27 00:45:01 home-server-1 CRON[45136]: pam_unix(cron:session): session closed for user azizelo
+Nov 27 00:50:01 home-server-1 CRON[45713]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 00:50:01 home-server-1 CRON[45714]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 27 00:50:01 home-server-1 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Nov 27 00:50:01 home-server-1 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 27 00:50:01 home-server-1 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 27 00:50:02 home-server-1 CRON[45713]: pam_unix(cron:session): session closed for user azizelo
+Nov 27 00:51:19 home-server-1 canonical-livepatch.canonical-livepatchd[1005]: Client information is recent, not refreshing.
+Nov 27 00:54:04 home-server-1 sshd[46182]: Accepted publickey for azizelo from 192.168.1.11 port 61355 ssh2: ED25519 SHA256:QKJtTan4Xdgrq7KxzyWdH2eyU4JEOhBT9ZOmy3LsV/o
+Nov 27 00:54:04 home-server-1 sshd[46182]: pam_unix(sshd:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 00:54:04 home-server-1 systemd-logind[1009]: New session 114 of user azizelo.
+Nov 27 00:54:05 home-server-1 systemd[1]: Created slice user-1000.slice - User Slice of UID 1000.
+Nov 27 00:54:05 home-server-1 systemd[1]: Starting user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+Nov 27 00:54:05 home-server-1 systemd[1]: Finished user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+Nov 27 00:54:05 home-server-1 systemd[1]: Starting user@1000.service - User Manager for UID 1000...
+Nov 27 00:54:05 home-server-1 (systemd)[46186]: pam_unix(systemd-user:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 00:54:05 home-server-1 systemd[46186]: Queued start job for default target default.target.
+Nov 27 00:54:05 home-server-1 systemd[46186]: Created slice app.slice - User Application Slice.
+Nov 27 00:54:05 home-server-1 systemd[46186]: Started launchpadlib-cache-clean.timer - Clean up old files in the Launchpadlib cache.
+Nov 27 00:54:05 home-server-1 systemd[46186]: Reached target paths.target - Paths.
+Nov 27 00:54:05 home-server-1 systemd[46186]: Reached target timers.target - Timers.
+Nov 27 00:54:05 home-server-1 systemd[46186]: Starting dbus.socket - D-Bus User Message Bus Socket...
+Nov 27 00:54:05 home-server-1 systemd[46186]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+Nov 27 00:54:05 home-server-1 systemd[46186]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Nov 27 00:54:05 home-server-1 systemd[46186]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+Nov 27 00:54:05 home-server-1 systemd[46186]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Nov 27 00:54:05 home-server-1 systemd[46186]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+Nov 27 00:54:05 home-server-1 systemd[46186]: Listening on keyboxd.socket - GnuPG public key management service.
+Nov 27 00:54:05 home-server-1 systemd[46186]: Listening on pk-debconf-helper.socket - debconf communication socket.
+Nov 27 00:54:05 home-server-1 systemd[46186]: Listening on snapd.session-agent.socket - REST API socket for snapd user session agent.
+Nov 27 00:54:05 home-server-1 systemd[46186]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+Nov 27 00:54:05 home-server-1 systemd[46186]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Nov 27 00:54:05 home-server-1 systemd[46186]: Reached target sockets.target - Sockets.
+Nov 27 00:54:05 home-server-1 systemd[46186]: Reached target basic.target - Basic System.
+Nov 27 00:54:05 home-server-1 systemd[46186]: Reached target default.target - Main User Target.
+Nov 27 00:54:05 home-server-1 systemd[46186]: Startup finished in 229ms.
+Nov 27 00:54:05 home-server-1 systemd[1]: Started user@1000.service - User Manager for UID 1000.
+Nov 27 00:54:05 home-server-1 systemd[1]: Started session-114.scope - Session 114 of User azizelo.
+Nov 27 00:54:18 home-server-1 systemd[1]: Started snap.canonical-livepatch.canonical-livepatch-722565cb-ee31-4d23-ac3d-05d0c5887aa0.scope.
+Nov 27 00:54:18 home-server-1 systemd[1]: snap.canonical-livepatch.canonical-livepatch-722565cb-ee31-4d23-ac3d-05d0c5887aa0.scope: Deactivated successfully.
+Nov 27 00:55:01 home-server-1 CRON[46530]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 27 00:55:01 home-server-1 CRON[46532]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 27 00:55:01 home-server-1 CRON[46531]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 00:55:01 home-server-1 CRON[46533]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 27 00:55:01 home-server-1 CRON[46530]: pam_unix(cron:session): session closed for user root
+Nov 27 00:55:01 home-server-1 CRON[46531]: pam_unix(cron:session): session closed for user azizelo
+Nov 27 00:58:56 home-server-1 sshd[47001]: Accepted publickey for azizelo from 192.168.1.11 port 61408 ssh2: ED25519 SHA256:QKJtTan4Xdgrq7KxzyWdH2eyU4JEOhBT9ZOmy3LsV/o
+Nov 27 00:58:56 home-server-1 sshd[47001]: pam_unix(sshd:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 00:58:56 home-server-1 systemd-logind[1009]: New session 118 of user azizelo.
+Nov 27 00:58:56 home-server-1 systemd[1]: Started session-118.scope - Session 118 of User azizelo.
+Nov 27 00:58:56 home-server-1 systemd[1]: Started snap.canonical-livepatch.canonical-livepatch-66010702-308d-42b9-9c38-34b34c893441.scope.
+Nov 27 00:58:57 home-server-1 systemd[1]: snap.canonical-livepatch.canonical-livepatch-66010702-308d-42b9-9c38-34b34c893441.scope: Deactivated successfully.
+Nov 27 00:59:03 home-server-1 vsce-sign[47246]: Package file size:  13651332
+Nov 27 00:59:03 home-server-1 vsce-sign[47246]: Signature archive file size:  14398
+Nov 27 00:59:03 home-server-1 vsce-sign[47246]: Manifest file size:  10028
+Nov 27 00:59:03 home-server-1 vsce-sign[47246]: Signature file size:  19350
+Nov 27 00:59:04 home-server-1 vsce-sign[47246]: ManifestPackageIntegrityPolicy succeeded.
+Nov 27 00:59:04 home-server-1 vsce-sign[47258]: Package file size:  19900756
+Nov 27 00:59:04 home-server-1 vsce-sign[47258]: Signature archive file size:  12535
+Nov 27 00:59:04 home-server-1 vsce-sign[47258]: Manifest file size:  8985
+Nov 27 00:59:04 home-server-1 vsce-sign[47258]: Signature file size:  12151
+Nov 27 00:59:04 home-server-1 vsce-sign[47246]: SignatureIntegrityPolicy for primary signature succeeded.
+Nov 27 00:59:04 home-server-1 vsce-sign[47246]: SignatureValidityPolicy for primary signature succeeded.
+Nov 27 00:59:04 home-server-1 vsce-sign[47246]: SignatureIntegrityPolicy for primary timestamp signature succeeded.
+Nov 27 00:59:04 home-server-1 vsce-sign[47246]: SignatureValidityPolicy for primary timestamp signature succeeded.
+Nov 27 00:59:04 home-server-1 vsce-sign[47246]: X.509 certificate chain validation will use the fallback certificate bundle for timestamping.
+Nov 27 00:59:04 home-server-1 vsce-sign[47258]: ManifestPackageIntegrityPolicy succeeded.
+Nov 27 00:59:04 home-server-1 vsce-sign[47258]: SignatureIntegrityPolicy for primary signature succeeded.
+Nov 27 00:59:04 home-server-1 vsce-sign[47258]: SignatureValidityPolicy for primary signature succeeded.
+Nov 27 00:59:04 home-server-1 vsce-sign[47258]: SignatureIntegrityPolicy for primary timestamp signature succeeded.
+Nov 27 00:59:04 home-server-1 vsce-sign[47258]: SignatureValidityPolicy for primary timestamp signature succeeded.
+Nov 27 00:59:04 home-server-1 vsce-sign[47258]: X.509 certificate chain validation will use the fallback certificate bundle for timestamping.
+Nov 27 00:59:05 home-server-1 vsce-sign[47246]: SignatureTrustPolicy for publisher primary signature timestamp signature succeeded.
+Nov 27 00:59:05 home-server-1 vsce-sign[47246]: X.509 certificate chain validation will use the fallback certificate bundle for code signing.
+Nov 27 00:59:05 home-server-1 vsce-sign[47246]: SignatureTrustPolicy for publisher primary signature succeeded.
+Nov 27 00:59:05 home-server-1 vsce-sign[47246]: SignatureIntegrityPolicy for repository countersignature succeeded.
+Nov 27 00:59:05 home-server-1 vsce-sign[47246]: SignatureValidityPolicy for repository countersignature succeeded.
+Nov 27 00:59:05 home-server-1 vsce-sign[47246]: SignatureIntegrityPolicy for repository countersignature timestamp signature succeeded.
+Nov 27 00:59:05 home-server-1 vsce-sign[47246]: SignatureValidityPolicy for repository countersignature timestamp signature succeeded.
+Nov 27 00:59:05 home-server-1 vsce-sign[47246]: SignatureTrustPolicy for repository countersignature timestamp signature succeeded.
+Nov 27 00:59:05 home-server-1 vsce-sign[47246]: SignatureTrustPolicy for repository countersignature succeeded.
+Nov 27 00:59:05 home-server-1 vsce-sign[47246]: RepositoryCountersignaturePolicy for repository countersignature succeeded with OK.
+Nov 27 00:59:05 home-server-1 vsce-sign[47246]: Primary signature type:  publisher primary signature
+Nov 27 00:59:05 home-server-1 vsce-sign[47246]: Primary signature status:  OK
+Nov 27 00:59:05 home-server-1 vsce-sign[47246]: Timestamp signature status:  OK
+Nov 27 00:59:05 home-server-1 vsce-sign[47246]: Repository countersignature status:  OK
+Nov 27 00:59:05 home-server-1 vsce-sign[47246]: Repository countersignature timestamp status:  OK
+Nov 27 00:59:05 home-server-1 vsce-sign[47246]: Exit code:  Success
+Nov 27 00:59:05 home-server-1 vsce-sign[47258]: SignatureTrustPolicy for repository primary signature timestamp signature succeeded.
+Nov 27 00:59:05 home-server-1 vsce-sign[47258]: X.509 certificate chain validation will use the fallback certificate bundle for code signing.
+Nov 27 00:59:05 home-server-1 vsce-sign[47258]: SignatureTrustPolicy for repository primary signature succeeded.
+Nov 27 00:59:05 home-server-1 vsce-sign[47258]: RepositoryCountersignaturePolicy for repository primary signature succeeded.
+Nov 27 00:59:05 home-server-1 vsce-sign[47258]: Primary signature type:  repository primary signature
+Nov 27 00:59:05 home-server-1 vsce-sign[47258]: Primary signature status:  OK
+Nov 27 00:59:05 home-server-1 vsce-sign[47258]: Timestamp signature status:  OK
+Nov 27 00:59:05 home-server-1 vsce-sign[47258]: Exit code:  Success
+Nov 27 00:59:54 home-server-1 systemd[46186]: launchpadlib-cache-clean.service - Clean up old files in the Launchpadlib cache was skipped because of an unmet condition check (ConditionPathExists=/home/azizelo/.launchpadlib/api.launchpad.net/cache).
+Nov 27 01:00:01 home-server-1 CRON[47384]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 01:00:01 home-server-1 CRON[47385]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 27 01:00:01 home-server-1 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Nov 27 01:00:01 home-server-1 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 27 01:00:01 home-server-1 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 27 01:00:01 home-server-1 CRON[47384]: pam_unix(cron:session): session closed for user azizelo
+Nov 27 01:02:38 home-server-1 sshd[47082]: Received disconnect from 192.168.1.11 port 61408:11: disconnected by user
+Nov 27 01:02:38 home-server-1 sshd[47082]: Disconnected from user azizelo 192.168.1.11 port 61408
+Nov 27 01:02:38 home-server-1 sshd[47001]: pam_unix(sshd:session): session closed for user azizelo
+Nov 27 01:02:38 home-server-1 systemd-logind[1009]: Session 118 logged out. Waiting for processes to exit.
+Nov 27 01:02:39 home-server-1 sshd[47741]: Accepted publickey for azizelo from 192.168.1.11 port 56906 ssh2: ED25519 SHA256:QKJtTan4Xdgrq7KxzyWdH2eyU4JEOhBT9ZOmy3LsV/o
+Nov 27 01:02:39 home-server-1 sshd[47741]: pam_unix(sshd:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 01:02:39 home-server-1 systemd-logind[1009]: New session 120 of user azizelo.
+Nov 27 01:02:39 home-server-1 systemd[1]: Started session-120.scope - Session 120 of User azizelo.
+Nov 27 01:02:39 home-server-1 systemd[1]: Started snap.canonical-livepatch.canonical-livepatch-3d0ca555-1d66-4255-8626-675d23ec1f16.scope.
+Nov 27 01:02:40 home-server-1 systemd[1]: snap.canonical-livepatch.canonical-livepatch-3d0ca555-1d66-4255-8626-675d23ec1f16.scope: Deactivated successfully.
+Nov 27 01:05:01 home-server-1 CRON[48224]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 27 01:05:01 home-server-1 CRON[48226]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 27 01:05:01 home-server-1 CRON[48225]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 01:05:01 home-server-1 CRON[48227]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 27 01:05:01 home-server-1 CRON[48224]: pam_unix(cron:session): session closed for user root
+Nov 27 01:05:01 home-server-1 CRON[48225]: pam_unix(cron:session): session closed for user azizelo
+Nov 27 01:05:08 home-server-1 systemd[1]: Starting fwupd-refresh.service - Refresh fwupd metadata and update motd...
+Nov 27 01:05:08 home-server-1 systemd[1]: fwupd-refresh.service: Deactivated successfully.
+Nov 27 01:05:08 home-server-1 systemd[1]: Finished fwupd-refresh.service - Refresh fwupd metadata and update motd.
+Nov 27 01:10:01 home-server-1 CRON[48899]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 01:10:01 home-server-1 CRON[48901]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 27 01:10:01 home-server-1 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Nov 27 01:10:01 home-server-1 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 27 01:10:01 home-server-1 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 27 01:10:01 home-server-1 CRON[48899]: pam_unix(cron:session): session closed for user azizelo
+Nov 27 01:15:01 home-server-1 CRON[49625]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 27 01:15:01 home-server-1 CRON[49628]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 27 01:15:01 home-server-1 CRON[49626]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 01:15:01 home-server-1 CRON[49629]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 27 01:15:01 home-server-1 CRON[49625]: pam_unix(cron:session): session closed for user root
+Nov 27 01:15:01 home-server-1 CRON[49626]: pam_unix(cron:session): session closed for user azizelo
+Nov 27 01:17:01 home-server-1 CRON[49917]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 27 01:17:01 home-server-1 CRON[49918]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Nov 27 01:17:01 home-server-1 CRON[49917]: pam_unix(cron:session): session closed for user root
+Nov 27 01:20:01 home-server-1 CRON[50284]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 01:20:01 home-server-1 CRON[50285]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 27 01:20:01 home-server-1 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Nov 27 01:20:01 home-server-1 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 27 01:20:01 home-server-1 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 27 01:20:01 home-server-1 CRON[50284]: pam_unix(cron:session): session closed for user azizelo
+Nov 27 01:25:01 home-server-1 CRON[50876]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 27 01:25:01 home-server-1 CRON[50877]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 01:25:01 home-server-1 CRON[50879]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 27 01:25:01 home-server-1 CRON[50880]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 27 01:25:01 home-server-1 CRON[50876]: pam_unix(cron:session): session closed for user root
+Nov 27 01:25:01 home-server-1 CRON[50877]: pam_unix(cron:session): session closed for user azizelo
+Nov 27 01:27:50 home-server-1 sshd[47823]: Received disconnect from 192.168.1.11 port 56906:11: disconnected by user
+Nov 27 01:27:50 home-server-1 sshd[47823]: Disconnected from user azizelo 192.168.1.11 port 56906
+Nov 27 01:27:50 home-server-1 systemd-logind[1009]: Session 120 logged out. Waiting for processes to exit.
+Nov 27 01:27:50 home-server-1 sshd[47741]: pam_unix(sshd:session): session closed for user azizelo
+Nov 27 01:28:10 home-server-1 sshd[51246]: Accepted publickey for azizelo from 192.168.1.11 port 51544 ssh2: ED25519 SHA256:QKJtTan4Xdgrq7KxzyWdH2eyU4JEOhBT9ZOmy3LsV/o
+Nov 27 01:28:10 home-server-1 sshd[51246]: pam_unix(sshd:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 01:28:10 home-server-1 systemd-logind[1009]: New session 130 of user azizelo.
+Nov 27 01:28:10 home-server-1 systemd[1]: Started session-130.scope - Session 130 of User azizelo.
+Nov 27 01:28:11 home-server-1 systemd[1]: Started snap.canonical-livepatch.canonical-livepatch-d2ab7ac4-5efd-4356-9dcc-8c624ea083e2.scope.
+Nov 27 01:28:11 home-server-1 systemd[1]: snap.canonical-livepatch.canonical-livepatch-d2ab7ac4-5efd-4356-9dcc-8c624ea083e2.scope: Deactivated successfully.
+Nov 27 01:28:47 home-server-1 sshd[51328]: Received disconnect from 192.168.1.11 port 51544:11: disconnected by user
+Nov 27 01:28:47 home-server-1 sshd[51328]: Disconnected from user azizelo 192.168.1.11 port 51544
+Nov 27 01:28:47 home-server-1 sshd[51246]: pam_unix(sshd:session): session closed for user azizelo
+Nov 27 01:28:47 home-server-1 systemd-logind[1009]: Session 130 logged out. Waiting for processes to exit.
+Nov 27 01:28:49 home-server-1 sshd[51477]: Accepted publickey for azizelo from 192.168.1.11 port 51558 ssh2: ED25519 SHA256:QKJtTan4Xdgrq7KxzyWdH2eyU4JEOhBT9ZOmy3LsV/o
+Nov 27 01:28:49 home-server-1 sshd[51477]: pam_unix(sshd:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 01:28:49 home-server-1 systemd-logind[1009]: New session 131 of user azizelo.
+Nov 27 01:28:49 home-server-1 systemd[1]: Started session-131.scope - Session 131 of User azizelo.
+Nov 27 01:28:49 home-server-1 systemd[1]: Started snap.canonical-livepatch.canonical-livepatch-0cb83b55-4a22-4fd7-a54c-9bbb27550ba9.scope.
+Nov 27 01:28:49 home-server-1 systemd[1]: snap.canonical-livepatch.canonical-livepatch-0cb83b55-4a22-4fd7-a54c-9bbb27550ba9.scope: Deactivated successfully.
+Nov 27 01:29:41 home-server-1 systemd[1]: session-120.scope: Deactivated successfully.
+Nov 27 01:29:41 home-server-1 systemd[1]: session-120.scope: Consumed 5.374s CPU time.
+Nov 27 01:29:41 home-server-1 systemd-logind[1009]: Removed session 120.
+Nov 27 01:30:01 home-server-1 CRON[51804]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 01:30:01 home-server-1 CRON[51807]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 27 01:30:01 home-server-1 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Nov 27 01:30:01 home-server-1 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 27 01:30:01 home-server-1 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 27 01:30:01 home-server-1 CRON[51804]: pam_unix(cron:session): session closed for user azizelo
+Nov 27 01:31:11 home-server-1 systemd[1]: session-130.scope: Deactivated successfully.
+Nov 27 01:31:11 home-server-1 systemd[1]: session-130.scope: Consumed 1.000s CPU time.
+Nov 27 01:31:11 home-server-1 systemd-logind[1009]: Removed session 130.
+Nov 27 01:35:01 home-server-1 CRON[52393]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 27 01:35:01 home-server-1 CRON[52395]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 27 01:35:01 home-server-1 CRON[52394]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 01:35:01 home-server-1 CRON[52396]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 27 01:35:01 home-server-1 CRON[52393]: pam_unix(cron:session): session closed for user root
+Nov 27 01:35:01 home-server-1 CRON[52394]: pam_unix(cron:session): session closed for user azizelo
+Nov 27 01:40:01 home-server-1 CRON[52975]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 01:40:01 home-server-1 CRON[52977]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 27 01:40:01 home-server-1 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Nov 27 01:40:01 home-server-1 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 27 01:40:01 home-server-1 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 27 01:40:01 home-server-1 CRON[52975]: pam_unix(cron:session): session closed for user azizelo
+Nov 27 01:42:37 home-server-1 canonical-livepatch.canonical-livepatchd[1005]: Client information is recent, not refreshing.
+Nov 27 01:44:54 home-server-1 systemd[1]: Starting motd-news.service - Message of the Day...
+Nov 27 01:45:01 home-server-1 CRON[53628]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 27 01:45:01 home-server-1 CRON[53631]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 27 01:45:01 home-server-1 CRON[53629]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 01:45:01 home-server-1 CRON[53632]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 27 01:45:01 home-server-1 CRON[53628]: pam_unix(cron:session): session closed for user root
+Nov 27 01:45:01 home-server-1 CRON[53629]: pam_unix(cron:session): session closed for user azizelo
+Nov 27 01:45:08 home-server-1 50-motd-news[53652]:  * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+Nov 27 01:45:08 home-server-1 50-motd-news[53652]:    just raised the bar for easy, resilient and secure K8s cluster deployment.
+Nov 27 01:45:08 home-server-1 50-motd-news[53652]:    https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+Nov 27 01:45:08 home-server-1 systemd[1]: motd-news.service: Deactivated successfully.
+Nov 27 01:45:08 home-server-1 systemd[1]: Finished motd-news.service - Message of the Day.
+Nov 27 01:50:01 home-server-1 CRON[54235]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 01:50:01 home-server-1 CRON[54236]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 27 01:50:01 home-server-1 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Nov 27 01:50:02 home-server-1 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 27 01:50:02 home-server-1 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 27 01:50:02 home-server-1 CRON[54235]: pam_unix(cron:session): session closed for user azizelo
+Nov 27 01:55:01 home-server-1 CRON[54802]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 27 01:55:01 home-server-1 CRON[54804]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 27 01:55:01 home-server-1 CRON[54803]: pam_unix(cron:session): session opened for user azizelo(uid=1000) by azizelo(uid=0)
+Nov 27 01:55:01 home-server-1 CRON[54805]: (azizelo) CMD (docker ps --format '{{.Names}}' | grep -q '^watchtower$' && curl -fsSL 'https://status/api/push/EgNfWC3gKq?status=up&msg=OK&ping=' >/dev/null 2>&1)
+Nov 27 01:55:01 home-server-1 CRON[54802]: pam_unix(cron:session): session closed for user root
+Nov 27 01:55:01 home-server-1 CRON[54803]: pam_unix(cron:session): session closed for user azizelo
+Nov 27 01:56:26 home-server-1 dbus-daemon[996]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.79' (uid=1000 pid=55057 comm="hostnamectl" label="unconfined")
+Nov 27 01:56:26 home-server-1 systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+Nov 27 01:56:26 home-server-1 dbus-daemon[996]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Nov 27 01:56:26 home-server-1 systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+
+=== Exit: 0

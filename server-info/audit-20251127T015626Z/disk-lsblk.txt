@@ -1,0 +1,22 @@
+=== Command: lsblk -o NAME,SIZE,FSTYPE,TYPE,MOUNTPOINT
+
+NAME                        SIZE FSTYPE      TYPE MOUNTPOINT
+loop0                      13.4M squashfs    loop /snap/canonical-livepatch/364
+loop1                      73.9M squashfs    loop /snap/core22/2139
+loop2                      19.5M squashfs    loop /snap/rclone/564
+loop3                      18.2M squashfs    loop /snap/rclone/561
+loop4                        74M squashfs    loop /snap/core22/2163
+loop5                      66.8M squashfs    loop /snap/core24/1225
+loop6                      50.8M squashfs    loop /snap/snapd/25202
+loop7                      50.9M squashfs    loop /snap/snapd/25577
+sda                       233.8G             disk 
+├─sda1                        1G vfat        part /boot/efi
+├─sda2                        2G ext4        part /boot
+└─sda3                    230.7G LVM2_member part 
+  └─ubuntu--vg-ubuntu--lv   100G ext4        lvm  /
+sdb                         2.7T ext4        disk /mnt/media
+sdc                         2.7T             disk 
+└─sdc1                      2.7T ext4        part /mnt/cache
+sdd                         2.7T ext4        disk /mnt/photoprism-storage
+
+=== Exit: 0

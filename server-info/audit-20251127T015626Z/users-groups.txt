@@ -1,0 +1,5 @@
+=== Command: groups
+
+azizelo adm cdrom sudo dip plugdev lxd docker
+
+=== Exit: 0

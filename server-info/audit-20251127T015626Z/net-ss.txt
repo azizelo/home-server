@@ -1,0 +1,66 @@
+=== Command: ss -tulpen
+
+Netid State  Recv-Q Send-Q         Local Address:Port  Peer Address:PortProcess                                                                                                                         
+udp   UNCONN 0      0                    0.0.0.0:5353       0.0.0.0:*    uid:110 ino:10425 sk:1 cgroup:/system.slice/avahi-daemon.service <->                                                           
+udp   UNCONN 0      0                 127.0.0.54:53         0.0.0.0:*    uid:992 ino:7740 sk:2 cgroup:/system.slice/systemd-resolved.service <->                                                        
+udp   UNCONN 0      0              127.0.0.53%lo:53         0.0.0.0:*    uid:992 ino:7738 sk:3 cgroup:/system.slice/systemd-resolved.service <->                                                        
+udp   UNCONN 0      0      192.168.1.10%enp3s0f0:68         0.0.0.0:*    uid:998 ino:10575 sk:4 cgroup:/system.slice/systemd-networkd.service <->                                                       
+udp   UNCONN 0      0             172.21.255.255:137        0.0.0.0:*    ino:18082 sk:5 cgroup:/system.slice/nmbd.service <->                                                                           
+udp   UNCONN 0      0                 172.21.0.1:137        0.0.0.0:*    ino:18081 sk:6 cgroup:/system.slice/nmbd.service <->                                                                           
+udp   UNCONN 0      0             172.20.255.255:137        0.0.0.0:*    ino:18078 sk:7 cgroup:/system.slice/nmbd.service <->                                                                           
+udp   UNCONN 0      0                 172.20.0.1:137        0.0.0.0:*    ino:18077 sk:8 cgroup:/system.slice/nmbd.service <->                                                                           
+udp   UNCONN 0      0             172.19.255.255:137        0.0.0.0:*    ino:18074 sk:9 cgroup:/system.slice/nmbd.service <->                                                                           
+udp   UNCONN 0      0                 172.19.0.1:137        0.0.0.0:*    ino:18073 sk:a cgroup:/system.slice/nmbd.service <->                                                                           
+udp   UNCONN 0      0             172.18.255.255:137        0.0.0.0:*    ino:18070 sk:b cgroup:/system.slice/nmbd.service <->                                                                           
+udp   UNCONN 0      0                 172.18.0.1:137        0.0.0.0:*    ino:18069 sk:c cgroup:/system.slice/nmbd.service <->                                                                           
+udp   UNCONN 0      0             172.17.255.255:137        0.0.0.0:*    ino:18066 sk:d cgroup:/system.slice/nmbd.service <->                                                                           
+udp   UNCONN 0      0                 172.17.0.1:137        0.0.0.0:*    ino:18065 sk:e cgroup:/system.slice/nmbd.service <->                                                                           
+udp   UNCONN 0      0              192.168.1.255:137        0.0.0.0:*    ino:10763 sk:f cgroup:/system.slice/nmbd.service <->                                                                           
+udp   UNCONN 0      0               192.168.1.10:137        0.0.0.0:*    ino:10762 sk:10 cgroup:/system.slice/nmbd.service <->                                                                          
+udp   UNCONN 0      0                    0.0.0.0:137        0.0.0.0:*    ino:10750 sk:11 cgroup:/system.slice/nmbd.service <->                                                                          
+udp   UNCONN 0      0             172.21.255.255:138        0.0.0.0:*    ino:18084 sk:12 cgroup:/system.slice/nmbd.service <->                                                                          
+udp   UNCONN 0      0                 172.21.0.1:138        0.0.0.0:*    ino:18083 sk:13 cgroup:/system.slice/nmbd.service <->                                                                          
+udp   UNCONN 0      0             172.20.255.255:138        0.0.0.0:*    ino:18080 sk:14 cgroup:/system.slice/nmbd.service <->                                                                          
+udp   UNCONN 0      0                 172.20.0.1:138        0.0.0.0:*    ino:18079 sk:15 cgroup:/system.slice/nmbd.service <->                                                                          
+udp   UNCONN 0      0             172.19.255.255:138        0.0.0.0:*    ino:18076 sk:16 cgroup:/system.slice/nmbd.service <->                                                                          
+udp   UNCONN 0      0                 172.19.0.1:138        0.0.0.0:*    ino:18075 sk:17 cgroup:/system.slice/nmbd.service <->                                                                          
+udp   UNCONN 0      0             172.18.255.255:138        0.0.0.0:*    ino:18072 sk:18 cgroup:/system.slice/nmbd.service <->                                                                          
+udp   UNCONN 0      0                 172.18.0.1:138        0.0.0.0:*    ino:18071 sk:19 cgroup:/system.slice/nmbd.service <->                                                                          
+udp   UNCONN 0      0             172.17.255.255:138        0.0.0.0:*    ino:18068 sk:1a cgroup:/system.slice/nmbd.service <->                                                                          
+udp   UNCONN 0      0                 172.17.0.1:138        0.0.0.0:*    ino:18067 sk:1b cgroup:/system.slice/nmbd.service <->                                                                          
+udp   UNCONN 0      0              192.168.1.255:138        0.0.0.0:*    ino:10765 sk:1c cgroup:/system.slice/nmbd.service <->                                                                          
+udp   UNCONN 0      0               192.168.1.10:138        0.0.0.0:*    ino:10764 sk:1d cgroup:/system.slice/nmbd.service <->                                                                          
+udp   UNCONN 0      0                    0.0.0.0:138        0.0.0.0:*    ino:10751 sk:1e cgroup:/system.slice/nmbd.service <->                                                                          
+udp   UNCONN 0      0                    0.0.0.0:41460      0.0.0.0:*    uid:110 ino:10427 sk:1f cgroup:/system.slice/avahi-daemon.service <->                                                          
+udp   UNCONN 0      0                       [::]:5353          [::]:*    uid:110 ino:10426 sk:20 cgroup:/system.slice/avahi-daemon.service v6only:1 <->                                                 
+udp   UNCONN 0      0                          *:443              *:*    uid:999 ino:10145 sk:21 cgroup:/system.slice/caddy.service v6only:0 <->                                                        
+udp   UNCONN 0      0                       [::]:33876         [::]:*    uid:110 ino:10428 sk:22 cgroup:/system.slice/avahi-daemon.service v6only:1 <->                                                 
+tcp   LISTEN 0      1024               127.0.0.1:34255      0.0.0.0:*    users:(("code-bf9252a2fb",pid=51569,fd=9)) uid:1000 ino:205149 sk:1001 cgroup:/user.slice/user-1000.slice/session-131.scope <->
+tcp   LISTEN 0      4096                 0.0.0.0:3001       0.0.0.0:*    ino:17483 sk:23 cgroup:/system.slice/docker.service <->                                                                        
+tcp   LISTEN 0      4096                 0.0.0.0:3000       0.0.0.0:*    ino:16699 sk:24 cgroup:/system.slice/docker.service <->                                                                        
+tcp   LISTEN 0      4096                 0.0.0.0:2342       0.0.0.0:*    ino:16643 sk:26 cgroup:/system.slice/docker.service <->                                                                        
+tcp   LISTEN 0      4096                 0.0.0.0:11434      0.0.0.0:*    ino:17437 sk:27 cgroup:/system.slice/docker.service <->                                                                        
+tcp   LISTEN 0      4096                 0.0.0.0:9000       0.0.0.0:*    ino:15649 sk:28 cgroup:/system.slice/docker.service <->                                                                        
+tcp   LISTEN 0      50                   0.0.0.0:139        0.0.0.0:*    ino:10194 sk:29 cgroup:/system.slice/smbd.service <->                                                                          
+tcp   LISTEN 0      4096                 0.0.0.0:22         0.0.0.0:*    ino:9674 sk:2a cgroup:/system.slice/ssh.socket <->                                                                             
+tcp   LISTEN 0      50                   0.0.0.0:445        0.0.0.0:*    ino:10193 sk:2b cgroup:/system.slice/smbd.service <->                                                                          
+tcp   LISTEN 0      4096                 0.0.0.0:9443       0.0.0.0:*    ino:14854 sk:2c cgroup:/system.slice/docker.service <->                                                                        
+tcp   LISTEN 0      4096                 0.0.0.0:8000       0.0.0.0:*    ino:14131 sk:2d cgroup:/system.slice/docker.service <->                                                                        
+tcp   LISTEN 0      4096           127.0.0.53%lo:53         0.0.0.0:*    uid:992 ino:7739 sk:2e cgroup:/system.slice/systemd-resolved.service <->                                                       
+tcp   LISTEN 0      4096              127.0.0.54:53         0.0.0.0:*    uid:992 ino:7741 sk:2f cgroup:/system.slice/systemd-resolved.service <->                                                       
+tcp   LISTEN 0      4096                 0.0.0.0:5678       0.0.0.0:*    ino:15833 sk:30 cgroup:/system.slice/docker.service <->                                                                        
+tcp   LISTEN 0      4096                    [::]:3001          [::]:*    ino:17484 sk:31 cgroup:/system.slice/docker.service v6only:1 <->                                                               
+tcp   LISTEN 0      4096                    [::]:3000          [::]:*    ino:16700 sk:32 cgroup:/system.slice/docker.service v6only:1 <->                                                               
+tcp   LISTEN 0      4096                    [::]:2342          [::]:*    ino:16644 sk:33 cgroup:/system.slice/docker.service v6only:1 <->                                                               
+tcp   LISTEN 0      4096                    [::]:11434         [::]:*    ino:17438 sk:34 cgroup:/system.slice/docker.service v6only:1 <->                                                               
+tcp   LISTEN 0      4096                    [::]:9000          [::]:*    ino:15650 sk:35 cgroup:/system.slice/docker.service v6only:1 <->                                                               
+tcp   LISTEN 0      50                      [::]:139           [::]:*    ino:10192 sk:36 cgroup:/system.slice/smbd.service v6only:1 <->                                                                 
+tcp   LISTEN 0      4096                    [::]:22            [::]:*    ino:9676 sk:37 cgroup:/system.slice/ssh.socket v6only:1 <->                                                                    
+tcp   LISTEN 0      4096                       *:80               *:*    uid:999 ino:12399 sk:38 cgroup:/system.slice/caddy.service v6only:0 <->                                                        
+tcp   LISTEN 0      4096                       *:443              *:*    uid:999 ino:10144 sk:39 cgroup:/system.slice/caddy.service v6only:0 <->                                                        
+tcp   LISTEN 0      50                      [::]:445           [::]:*    ino:10191 sk:3a cgroup:/system.slice/smbd.service v6only:1 <->                                                                 
+tcp   LISTEN 0      4096                    [::]:9443          [::]:*    ino:14855 sk:3b cgroup:/system.slice/docker.service v6only:1 <->                                                               
+tcp   LISTEN 0      4096                    [::]:8000          [::]:*    ino:14132 sk:3c cgroup:/system.slice/docker.service v6only:1 <->                                                               
+tcp   LISTEN 0      4096                    [::]:5678          [::]:*    ino:15834 sk:3d cgroup:/system.slice/docker.service v6only:1 <->                                                               
+
+=== Exit: 0

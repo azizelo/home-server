@@ -1,0 +1,5 @@
+=== Command: ls -la /var/lib/docker
+
+ls: cannot open directory '/var/lib/docker': Permission denied
+
+=== Exit: 2

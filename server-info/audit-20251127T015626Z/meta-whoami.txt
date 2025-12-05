@@ -1,0 +1,5 @@
+=== Command: whoami
+
+azizelo
+
+=== Exit: 0

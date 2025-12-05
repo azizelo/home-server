@@ -1,0 +1,69 @@
+2025-11-27T01:56:26Z START meta-date
+2025-11-27T01:56:26Z END meta-date -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/meta-date.txt
+2025-11-27T01:56:26Z START meta-whoami
+2025-11-27T01:56:26Z END meta-whoami -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/meta-whoami.txt
+2025-11-27T01:56:26Z START meta-hostname
+2025-11-27T01:56:26Z END meta-hostname -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/meta-hostname.txt
+2025-11-27T01:56:26Z START meta-uname
+2025-11-27T01:56:26Z END meta-uname -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/meta-uname.txt
+2025-11-27T01:56:26Z START meta-lsb_release
+2025-11-27T01:56:26Z END meta-lsb_release -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/meta-lsb_release.txt
+2025-11-27T01:56:26Z START meta-os-release
+2025-11-27T01:56:26Z END meta-os-release -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/meta-os-release.txt
+2025-11-27T01:56:26Z START meta-uptime
+2025-11-27T01:56:26Z END meta-uptime -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/meta-uptime.txt
+2025-11-27T01:56:26Z START meta-top
+2025-11-27T01:56:26Z END meta-top -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/meta-top.txt
+2025-11-27T01:56:26Z START meta-ps
+2025-11-27T01:56:26Z END meta-ps -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/meta-ps.txt
+2025-11-27T01:56:26Z START disk-df
+2025-11-27T01:56:26Z END disk-df -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/disk-df.txt
+2025-11-27T01:56:26Z START disk-lsblk
+2025-11-27T01:56:26Z END disk-lsblk -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/disk-lsblk.txt
+2025-11-27T01:56:26Z START disk-du-var
+2025-11-27T01:56:26Z END disk-du-var -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/disk-du-var.txt
+2025-11-27T01:56:26Z START net-ss
+2025-11-27T01:56:26Z END net-ss -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/net-ss.txt
+2025-11-27T01:56:26Z START net-ip-addr
+2025-11-27T01:56:26Z END net-ip-addr -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/net-ip-addr.txt
+2025-11-27T01:56:26Z START net-ip-route
+2025-11-27T01:56:26Z END net-ip-route -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/net-ip-route.txt
+2025-11-27T01:56:26Z START fw-ufw-status
+2025-11-27T01:56:26Z END fw-ufw-status -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/fw-ufw-status.txt
+2025-11-27T01:56:26Z START fw-iptables-save
+2025-11-27T01:56:26Z END fw-iptables-save -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/fw-iptables-save.txt
+2025-11-27T01:56:26Z START systemd-list-units
+2025-11-27T01:56:26Z END systemd-list-units -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/systemd-list-units.txt
+2025-11-27T01:56:26Z START systemd-list-unit-files
+2025-11-27T01:56:27Z END systemd-list-unit-files -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/systemd-list-unit-files.txt
+2025-11-27T01:56:27Z START systemd-failed
+2025-11-27T01:56:27Z END systemd-failed -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/systemd-failed.txt
+2025-11-27T01:56:27Z START systemd-timers
+2025-11-27T01:56:27Z END systemd-timers -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/systemd-timers.txt
+2025-11-27T01:56:27Z START journal-last-500
+2025-11-27T01:56:27Z END journal-last-500 -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/journal-last-500.txt
+2025-11-27T01:56:27Z START users-id
+2025-11-27T01:56:27Z END users-id -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/users-id.txt
+2025-11-27T01:56:27Z START users-groups
+2025-11-27T01:56:27Z END users-groups -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/users-groups.txt
+2025-11-27T01:56:27Z START users-passwd
+2025-11-27T01:56:27Z END users-passwd -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/users-passwd.txt
+2025-11-27T01:56:27Z START users-group-list
+2025-11-27T01:56:27Z END users-group-list -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/users-group-list.txt
+2025-11-27T01:56:27Z START crontab-user
+2025-11-27T01:56:27Z END crontab-user -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/crontab-user.txt
+2025-11-27T01:56:27Z START packages-dpkg
+2025-11-27T01:56:27Z END packages-dpkg -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/packages-dpkg.txt
+2025-11-27T01:56:27Z START docker-version
+2025-11-27T01:56:27Z END docker-version -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/docker-version.txt
+2025-11-27T01:56:27Z START docker-info
+2025-11-27T01:56:28Z END docker-info -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/docker-info.txt
+2025-11-27T01:56:28Z START docker-images
+2025-11-27T01:56:28Z END docker-images -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/docker-images.txt
+2025-11-27T01:56:28Z START docker-containers
+2025-11-27T01:56:28Z END docker-containers -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/docker-containers.txt
+2025-11-27T01:56:28Z START ls-etc-systemd
+2025-11-27T01:56:28Z END ls-etc-systemd -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/ls-etc-systemd.txt
+2025-11-27T01:56:28Z START ls-var-lib-docker
+2025-11-27T01:56:28Z END ls-var-lib-docker -> /home/azizelo/server-ops/server-info/audit-20251127T015626Z/ls-var-lib-docker.txt
+2025-11-27T01:56:28Z AUDIT COMPLETE: /home/azizelo/server-ops/server-info/audit-20251127T015626Z

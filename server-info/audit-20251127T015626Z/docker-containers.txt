@@ -1,0 +1,12 @@
+=== Command: docker ps -a --format {{.Image}} {{.Names}} {{.Status}}
+
+ghcr.io/open-webui/open-webui:main open-webui Up 7 hours (healthy)
+n8nio/n8n:latest n8n Up 7 hours
+portainer/portainer-ce:latest portainer Up 7 hours
+ollama/ollama:latest ollama Up 7 hours
+mariadb:10.11 photoprism-db Up 7 hours
+louislam/uptime-kuma:latest uptime-kuma Up 7 hours (healthy)
+containrrr/watchtower watchtower Up 7 hours (healthy)
+photoprism/photoprism:latest photoprism Up 7 hours
+
+=== Exit: 0

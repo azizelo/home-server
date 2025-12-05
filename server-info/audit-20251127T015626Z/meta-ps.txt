@@ -1,0 +1,228 @@
+=== Command: ps aux --forest
+
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           2  0.0  0.0      0     0 ?        S    Nov26   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-rcu_g]
+root           5  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-rcu_p]
+root           6  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-slub_]
+root           7  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-netns]
+root           9  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/0:0H-events_highpri]
+root          12  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-mm_pe]
+root          13  0.0  0.0      0     0 ?        I    Nov26   0:00  \_ [rcu_tasks_kthread]
+root          14  0.0  0.0      0     0 ?        I    Nov26   0:00  \_ [rcu_tasks_rude_kthread]
+root          15  0.0  0.0      0     0 ?        I    Nov26   0:00  \_ [rcu_tasks_trace_kthread]
+root          16  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [ksoftirqd/0]
+root          17  0.0  0.0      0     0 ?        I    Nov26   0:05  \_ [rcu_preempt]
+root          18  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [migration/0]
+root          19  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [idle_inject/0]
+root          20  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [cpuhp/0]
+root          21  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [cpuhp/1]
+root          22  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [idle_inject/1]
+root          23  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [migration/1]
+root          24  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [ksoftirqd/1]
+root          26  0.0  0.0      0     0 ?        I<   Nov26   0:01  \_ [kworker/1:0H-kblockd]
+root          27  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [cpuhp/2]
+root          28  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [idle_inject/2]
+root          29  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [migration/2]
+root          30  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [ksoftirqd/2]
+root          32  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/2:0H-events_highpri]
+root          33  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [cpuhp/3]
+root          34  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [idle_inject/3]
+root          35  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [migration/3]
+root          36  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [ksoftirqd/3]
+root          38  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/3:0H-events_highpri]
+root          39  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [kdevtmpfs]
+root          40  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-inet_]
+root          41  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [kauditd]
+root          42  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [khungtaskd]
+root          44  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [oom_reaper]
+root          46  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-write]
+root          47  0.0  0.0      0     0 ?        S    Nov26   0:01  \_ [kcompactd0]
+root          48  0.0  0.0      0     0 ?        SN   Nov26   0:00  \_ [ksmd]
+root          50  0.0  0.0      0     0 ?        SN   Nov26   0:00  \_ [khugepaged]
+root          51  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-kinte]
+root          52  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-kbloc]
+root          53  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-blkcg]
+root          54  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [irq/9-acpi]
+root          58  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-tpm_d]
+root          59  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-ata_s]
+root          60  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-md]
+root          61  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-md_bi]
+root          62  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-edac-]
+root          63  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-devfr]
+root          64  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [watchdogd]
+root          65  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/3:1H-kblockd]
+root          66  0.0  0.0      0     0 ?        S    Nov26   0:02  \_ [kswapd0]
+root          67  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [ecryptfs-kthread]
+root          68  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-kthro]
+root          69  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [irq/47-pciehp]
+root          70  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [irq/48-pciehp]
+root          71  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [irq/49-pciehp]
+root          72  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [irq/50-pciehp]
+root          73  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [irq/51-pciehp]
+root          74  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-acpi_]
+root          75  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-mld]
+root          76  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/1:1H]
+root          77  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-ipv6_]
+root          84  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-kstrp]
+root          86  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/u9:0-hci0]
+root          91  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-crypt]
+root         101  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-charg]
+root         134  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/2:1H-kblockd]
+root         160  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/0:1H-kblockd]
+root         162  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-sdhci]
+root         163  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [irq/16-mmc0]
+root         164  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [scsi_eh_0]
+root         165  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-scsi_]
+root         212  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-kdmfl]
+root         219  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [scsi_eh_1]
+root         220  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-scsi_]
+root         221  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [usb-storage]
+root         222  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [scsi_eh_2]
+root         223  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-scsi_]
+root         224  0.0  0.0      0     0 ?        S    Nov26   0:08  \_ [usb-storage]
+root         225  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [scsi_eh_3]
+root         226  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-scsi_]
+root         227  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [usb-storage]
+root         228  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-uas]
+root         248  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-raid5]
+root         297  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [jbd2/dm-0-8]
+root         298  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-ext4-]
+root         394  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-kmpat]
+root         395  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-kmpat]
+root         461  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [psimon]
+root         577  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [irq/73-mei_me]
+root         593  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/u9:2-hci0]
+root         609  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [jbd2/sda2-8]
+root         610  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-ext4-]
+root         643  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [jbd2/sdd-8]
+root         648  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-ext4-]
+root         707  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [jbd2/sdc1-8]
+root         708  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-ext4-]
+root         716  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [jbd2/sdb-8]
+root         717  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-ext4-]
+root         720  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-ttm]
+root         724  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [card1-crtc0]
+root         725  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [card1-crtc1]
+root         726  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [card1-crtc2]
+root         730  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-cfg80]
+root        4788  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-dio/d]
+root        6873  0.0  0.0      0     0 ?        I<   Nov26   0:00  \_ [kworker/R-tls-s]
+root        8667  0.0  0.0      0     0 ?        S    Nov26   0:00  \_ [psimon]
+root       19857  0.0  0.0      0     0 ?        I    Nov26   0:02  \_ [kworker/1:1-events]
+root       20999  0.0  0.0      0     0 ?        I    Nov26   0:01  \_ [kworker/2:0-events]
+root       42250  0.0  0.0      0     0 ?        I    00:20   0:00  \_ [kworker/0:3-events]
+root       48513  0.0  0.0      0     0 ?        I    01:07   0:00  \_ [kworker/1:0-events]
+root       49920  0.0  0.0      0     0 ?        I    01:17   0:00  \_ [kworker/u8:0-flush-8:16]
+root       51761  0.0  0.0      0     0 ?        I    01:29   0:00  \_ [kworker/3:0-events]
+root       51822  0.0  0.0      0     0 ?        I    01:30   0:00  \_ [kworker/3:3-events]
+root       52990  0.0  0.0      0     0 ?        I    01:40   0:00  \_ [kworker/2:3]
+root       52993  0.0  0.0      0     0 ?        I    01:40   0:00  \_ [kworker/u8:1-events_power_efficient]
+root       54250  0.0  0.0      0     0 ?        I    01:50   0:00  \_ [kworker/0:1]
+root       54253  0.0  0.0      0     0 ?        I    01:50   0:00  \_ [kworker/u8:4-events_power_efficient]
+root       55036  0.0  0.0      0     0 ?        I    01:56   0:00  \_ [kworker/u8:2-events_power_efficient]
+root           1  0.0  0.0  23628 14696 ?        Ss   Nov26   0:03 /sbin/init
+root         369  0.0  0.1  66972 19596 ?        S<s  Nov26   0:00 /usr/lib/systemd/systemd-journald
+root         416  0.0  0.1 289112 27264 ?        SLsl Nov26   0:02 /sbin/multipathd -d -s
+root         450  0.0  0.0  29732  8388 ?        Ss   Nov26   0:00 /usr/lib/systemd/systemd-udevd
+systemd+     861  0.0  0.0  21712 12672 ?        Ss   Nov26   0:00 /usr/lib/systemd/systemd-resolved
+systemd+     866  0.0  0.0  91048  7808 ?        Ssl  Nov26   0:00 /usr/lib/systemd/systemd-timesyncd
+systemd+     967  0.0  0.0  22020  9472 ?        Ss   Nov26   0:05 /usr/lib/systemd/systemd-networkd
+avahi        995  0.0  0.0   8820  4480 ?        Ss   Nov26   0:04 avahi-daemon: running [home-server-1.local]
+avahi       1016  0.0  0.0   8424  1444 ?        S    Nov26   0:00  \_ avahi-daemon: chroot helper
+message+     996  0.0  0.0  10396  5988 ?        Ss   Nov26   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+polkitd     1003  0.0  0.0 383704  9488 ?        Ssl  Nov26   0:01 /usr/lib/polkit-1/polkitd --no-debug
+root        1005  0.0  0.0 1235016 11932 ?       Ssl  Nov26   0:01 /snap/canonical-livepatch/364/canonical-livepatchd
+root        1007  0.0  0.2 1923376 38344 ?       Ssl  Nov26   0:02 /usr/lib/snapd/snapd
+root        1009  0.0  0.0  18192  8824 ?        Ss   Nov26   0:00 /usr/lib/systemd/systemd-logind
+root        1010  0.0  0.0 422272 11136 ?        Ssl  Nov26   0:02 /usr/sbin/thermald --systemd --dbus-enable --adaptive
+root        1011  0.0  0.0 469352 14336 ?        Ssl  Nov26   0:03 /usr/libexec/udisks2/udisksd
+root        1045  0.1  0.3 2394916 54404 ?       Ssl  Nov26   0:46 /usr/bin/containerd
+root        1068  0.0  0.1 109692 22528 ?        Ssl  Nov26   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+syslog      1071  0.0  0.0 222508  6272 ?        Ssl  Nov26   0:00 /usr/sbin/rsyslogd -n -iNONE
+root        1082  0.0  0.0 392092 12416 ?        Ssl  Nov26   0:00 /usr/sbin/ModemManager
+root        1091  0.0  0.0 310952  7680 ?        Ssl  Nov26   0:00 /usr/libexec/boltd
+caddy       1253  0.0  0.2 2080256 38336 ?       Ssl  Nov26   0:03 /usr/bin/caddy run --environ --config /etc/caddy/Caddyfile
+root        1254  0.2  0.5 3377332 87052 ?       Ssl  Nov26   1:15 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root        2347  0.0  0.0 1673252 4352 ?        Sl   Nov26   0:00  \_ /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 8000 -container-ip 172.20.0.2 -container-port 8000 -use-listen-fd
+root        2354  0.0  0.0 1599008 4480 ?        Sl   Nov26   0:00  \_ /usr/bin/docker-proxy -proto tcp -host-ip :: -host-port 8000 -container-ip 172.20.0.2 -container-port 8000 -use-listen-fd
+root        2364  0.0  0.0 1746728 4608 ?        Sl   Nov26   0:00  \_ /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 9000 -container-ip 172.20.0.2 -container-port 9000 -use-listen-fd
+root        2372  0.0  0.0 1673252 4608 ?        Sl   Nov26   0:00  \_ /usr/bin/docker-proxy -proto tcp -host-ip :: -host-port 9000 -container-ip 172.20.0.2 -container-port 9000 -use-listen-fd
+root        2381  0.0  0.0 1746984 4608 ?        Sl   Nov26   0:00  \_ /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 9443 -container-ip 172.20.0.2 -container-port 9443 -use-listen-fd
+root        2390  0.0  0.0 1894448 4992 ?        Sl   Nov26   0:00  \_ /usr/bin/docker-proxy -proto tcp -host-ip :: -host-port 9443 -container-ip 172.20.0.2 -container-port 9443 -use-listen-fd
+root        2433  0.0  0.0 1673252 4736 ?        Sl   Nov26   0:00  \_ /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 2342 -container-ip 172.20.0.3 -container-port 2342 -use-listen-fd
+root        2445  0.0  0.0 1746984 4480 ?        Sl   Nov26   0:00  \_ /usr/bin/docker-proxy -proto tcp -host-ip :: -host-port 2342 -container-ip 172.20.0.3 -container-port 2342 -use-listen-fd
+root        2477  0.0  0.0 1820716 4480 ?        Sl   Nov26   0:00  \_ /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 3000 -container-ip 172.20.0.4 -container-port 8080 -use-listen-fd
+root        2485  0.0  0.0 1746728 4480 ?        Sl   Nov26   0:00  \_ /usr/bin/docker-proxy -proto tcp -host-ip :: -host-port 3000 -container-ip 172.20.0.4 -container-port 8080 -use-listen-fd
+root        2513  0.0  0.0 1672996 4480 ?        Sl   Nov26   0:00  \_ /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 11434 -container-ip 172.20.0.5 -container-port 11434 -use-listen-fd
+root        2520  0.0  0.0 1673252 4352 ?        Sl   Nov26   0:00  \_ /usr/bin/docker-proxy -proto tcp -host-ip :: -host-port 11434 -container-ip 172.20.0.5 -container-port 11434 -use-listen-fd
+root        2552  0.0  0.0 1599520 4480 ?        Sl   Nov26   0:00  \_ /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 5678 -container-ip 172.20.0.7 -container-port 5678 -use-listen-fd
+root        2559  0.0  0.0 1673252 4480 ?        Sl   Nov26   0:00  \_ /usr/bin/docker-proxy -proto tcp -host-ip :: -host-port 5678 -container-ip 172.20.0.7 -container-port 5678 -use-listen-fd
+root        2581  0.0  0.0 1746984 4864 ?        Sl   Nov26   0:00  \_ /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 3001 -container-ip 172.20.0.8 -container-port 3001 -use-listen-fd
+root        2587  0.0  0.0 1746984 4352 ?        Sl   Nov26   0:00  \_ /usr/bin/docker-proxy -proto tcp -host-ip :: -host-port 3001 -container-ip 172.20.0.8 -container-port 3001 -use-listen-fd
+root        1257  0.0  0.0   6824  2688 ?        Ss   Nov26   0:00 /usr/sbin/cron -f -P
+root        1268  0.0  0.0  12020  7936 ?        Ss   Nov26   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root       46182  0.0  0.0  14736 10112 ?        Ss   00:54   0:00  \_ sshd: azizelo [priv]
+azizelo    46456  0.0  0.0  14960  7072 ?        S    00:54   0:00  |   \_ sshd: azizelo@pts/0
+azizelo    46457  0.0  0.0   8780  5504 pts/0    Ss+  00:54   0:00  |       \_ -bash
+root       51477  0.0  0.0  14736 10112 ?        Ss   01:28   0:00  \_ sshd: azizelo [priv]
+azizelo    51550  0.1  0.0  15384  7224 ?        S    01:28   0:02      \_ sshd: azizelo@notty
+azizelo    51551  0.0  0.0   2800  1920 ?        Ss   01:28   0:00          \_ sh
+azizelo    51569  0.2  0.1  39368 18644 ?        Sl   01:28   0:04              \_ /home/azizelo/.vscode-server/code-bf9252a2fb45be6893dd8870c0bf37e2e1766d61 command-shell --cli-data-dir /home/azizelo/.vscode-server/cli --parent-process-id 51551 --on-host=127.0.0.1 --on-port
+azizelo    54909  0.0  0.0   5684  1920 ?        S    01:55   0:00              \_ sleep 180
+root        1272  0.0  0.0   6104  1920 tty1     Ss+  Nov26   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root        1288  0.0  0.1  78080 18048 ?        Ss   Nov26   0:01 /usr/sbin/nmbd --foreground --no-process-group
+root        1300  0.0  0.1  90300 26112 ?        Ss   Nov26   0:00 /usr/sbin/smbd --foreground --no-process-group
+root        1307  0.0  0.0  87808  6620 ?        S    Nov26   0:00  \_ smbd: notifyd .
+root        1308  0.0  0.0  87816  6236 ?        S    Nov26   0:00  \_ smbd: cleanupd 
+root        6876  0.0  0.1  90876 17684 ?        S    Nov26   0:00  \_ smbd: client [192.168.1.11]
+root        1995  0.0  0.0 1239148 15788 ?       Sl   Nov26   0:11 /usr/bin/containerd-shim-runc-v2 -namespace moby -id f0cfc7ae14d20e6af08d3a27f9df13ba92626dc24e7dbdc5c15b1a1f8bdc0fa2 -address /run/containerd/containerd.sock
+root        2218  0.0  0.0 715276 13952 ?        Ssl  Nov26   0:00  \_ /watchtower
+root        1998  0.0  0.0 1239148 16104 ?       Sl   Nov26   0:11 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 79420a3ab98d241438aaa100415be34476acb5e988ccb3346b9475ff3640b632 -address /run/containerd/containerd.sock
+root        2202  0.3  4.5 3123252 746252 ?      Ssl  Nov26   1:38  \_ /usr/local/bin/python3 -m uvicorn open_webui.main:app --host 0.0.0.0 --port 8080 --forwarded-allow-ips * --workers 1
+root        2005  0.0  0.0 1238892 15468 ?       Sl   Nov26   0:06 /usr/bin/containerd-shim-runc-v2 -namespace moby -id ee5fa2aa5c7232651a6eb7c873027bda78ecca5e47aa58b5a9f1ae71162b0bd3 -address /run/containerd/containerd.sock
+azizelo     2224  0.0  0.0    860   384 ?        Ss   Nov26   0:01  \_ tini -- /docker-entrypoint.sh
+azizelo     2597  0.3  1.7 22413612 277360 ?     Sl   Nov26   1:38      \_ node /usr/local/bin/n8n
+azizelo     2934  0.1  0.7 21704016 117924 ?     Sl   Nov26   0:35          \_ node --disallow-code-generation-from-strings --disable-proto=delete /usr/local/lib/node_modules/n8n/node_modules/.pnpm/@n8n+task-runner@file+packages+@n8n+task-runner_@opentelemetry+api@1.9.0_@opentelemetry_5147392a3f2dab4b87aa45b14b25796a/node_modules/@n8n/task-runner/dist/start.js
+root        2011  0.0  0.0 1238892 15460 ?       Sl   Nov26   0:04 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 3f061883713e9fa666afe819b99655926c4753d3ec2cb3b9e0afe2d62b8c8c48 -address /run/containerd/containerd.sock
+root        2217  0.0  0.4 1319844 73180 ?       Ssl  Nov26   0:10  \_ /portainer
+root        2020  0.0  0.0 1238892 15420 ?       Sl   Nov26   0:04 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 040b42eaca2405a9c18be80a736fd66a392838b82ed56e00f59bd7ae3d50916b -address /run/containerd/containerd.sock
+caddy       2215  0.5  1.4 1677348 239376 ?      Ssl  Nov26   2:07  \_ mariadbd
+root        2023  0.0  0.0 1238892 15500 ?       Sl   Nov26   0:04 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 32e19950863132192a186fc1039bb85a1730a3b5d88795cccb4d79437722d2f5 -address /run/containerd/containerd.sock
+root        2189  0.0  0.0    436     0 ?        Ss   Nov26   0:00  \_ /package/admin/s6/command/s6-svscan -d4 -- /run/service
+root        2654  0.0  0.0    220     0 ?        S    Nov26   0:00      \_ s6-supervise s6-linux-init-shutdownd
+root        2657  0.0  0.0    208     0 ?        Ss   Nov26   0:00      |   \_ /package/admin/s6-linux-init/command/s6-linux-init-shutdownd -d3 -c /run/s6/basedir -g 3000 -C -B
+root        2682  0.0  0.0    220     0 ?        S    Nov26   0:00      \_ s6-supervise photoprism
+root        2720  0.0  0.0   4700  3456 ?        Ss   Nov26   0:00      |   \_ bash /scripts/cmd.sh /opt/photoprism/bin/photoprism start
+root        2774  0.0  0.0   4700  1996 ?        S    Nov26   0:00      |       \_ bash /scripts/cmd.sh /opt/photoprism/bin/photoprism start
+root        2775  0.9  4.5 2745464 746724 ?      Sl   Nov26   3:49      |           \_ /opt/photoprism/bin/photoprism start
+root        2683  0.0  0.0    220     0 ?        S    Nov26   0:00      \_ s6-supervise s6rc-oneshot-runner
+root        2691  0.0  0.0    208     0 ?        Ss   Nov26   0:00      |   \_ /package/admin/s6/command/s6-ipcserverd -1 -- /package/admin/s6/command/s6-ipcserver-access -v0 -E -l0 -i data/rules -- /package/admin/s6/command/s6-sudod -t 30000 -- /package/admin/s6-rc/command/s6-rc-oneshot-run -l ../.. --
+root        2684  0.0  0.0    220     0 ?        S    Nov26   0:00      \_ s6-supervise s6rc-fdholder
+root        2028  0.0  0.0 1239148 16124 ?       Sl   Nov26   0:08 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 9278de705e8b85aab20beeb772f6d3e1f7d53371abc9a032cd5b6743e003d8a8 -address /run/containerd/containerd.sock
+root        2188  0.0  0.0   2144   896 ?        Ss   Nov26   0:00  \_ /usr/bin/dumb-init -- extra/entrypoint.sh node server/server.js
+root        2615  1.2  0.9 1024016 152352 ?      Ssl  Nov26   5:14      \_ node server/server.js
+root        2029  0.0  0.0 1238892 15352 ?       Sl   Nov26   0:05 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 3f10bf652b2dce3679703fc2d1878b3d4d717a8645acdbac955bfad206a1e971 -address /run/containerd/containerd.sock
+root        2190  0.0  0.2 2005008 33116 ?       Ssl  Nov26   0:03  \_ /bin/ollama serve
+root        6334  0.0  0.2 598168 44268 ?        Ssl  Nov26   0:03 /usr/libexec/fwupd/fwupd
+root        6341  0.0  0.0 314248  9216 ?        Ssl  Nov26   0:00 /usr/libexec/upowerd
+root        8391  0.1  0.2 617436 39112 ?        Ssl  Nov26   0:27 /usr/bin/python3 /usr/bin/fail2ban-server -xf start
+azizelo    46186  0.0  0.0  20688 11648 ?        Ss   00:54   0:00 /usr/lib/systemd/systemd --user
+azizelo    46188  0.0  0.0  21156  3520 ?        S    00:54   0:00  \_ (sd-pam)
+azizelo    47169  0.0  0.0   2800  1792 ?        S    00:59   0:00 sh /home/azizelo/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/bin/code-server --connection-token=remotessh --accept-server-license-terms --start-server --enable-remote-auto-shutdown --socket-path=/tmp/code-dbcd2feb-8ac9-4173-9230-7c5288c0cb52
+azizelo    47173  0.5  1.1 11900532 179556 ?     Sl   00:59   0:17  \_ /home/azizelo/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/node /home/azizelo/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/out/server-main.js --connection-token=remotessh --accept-server-license-terms --start-server --enable-remote-auto-shutdown --socket-path=/tmp/code-dbcd2feb-8ac9-4173-9230-7c5288c0cb52
+azizelo    47210  0.1  0.4 1225300 78988 ?       Sl   00:59   0:04      \_ /home/azizelo/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/node /home/azizelo/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/out/bootstrap-fork --type=ptyHost --logsPath /home/azizelo/.vscode-server/data/logs/20251127T005901
+azizelo    53319  0.0  0.0   8844  5632 pts/1    Ss   01:42   0:00      |   \_ /bin/bash --init-file /home/azizelo/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+azizelo    55042  0.0  0.0   7340  3584 pts/1    S+   01:56   0:00      |   |   \_ bash /home/azizelo/server-ops/server-info/audit.sh
+azizelo    55091  0.0  0.0   7340  2124 pts/1    S+   01:56   0:00      |   |       \_ bash /home/azizelo/server-ops/server-info/audit.sh
+azizelo    55094  0.0  0.0  11016  4480 pts/1    R+   01:56   0:00      |   |       |   \_ ps aux --forest
+azizelo    55092  0.0  0.0   5696  1920 pts/1    S+   01:56   0:00      |   |       \_ head -n 500
+azizelo    55043  0.0  0.0   2800  1664 ?        S    01:56   0:00      |   \_ /bin/sh -c "/home/azizelo/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/out/vs/base/node/cpuUsage.sh" 53319
+azizelo    55045  0.0  0.0   7340  3456 ?        S    01:56   0:00      |       \_ /bin/bash /home/azizelo/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/out/vs/base/node/cpuUsage.sh 53319
+azizelo    55050  0.0  0.0   5684  1920 ?        S    01:56   0:00      |           \_ sleep 1
+azizelo    51594  3.4  5.3 65653796 875060 ?     Sl   01:28   0:56      \_ /home/azizelo/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/node --dns-result-order=ipv4first /home/azizelo/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+azizelo    51605  0.0  0.3 1262980 60612 ?       Sl   01:28   0:00      \_ /home/azizelo/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/node /home/azizelo/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/out/bootstrap-fork --type=fileWatcher
+root       55058 17.1  0.0  17280  7552 ?        Ss   01:56   0:00 /usr/lib/systemd/systemd-hostnamed
+
+=== Exit: 0

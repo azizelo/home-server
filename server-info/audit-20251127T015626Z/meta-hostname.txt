@@ -1,0 +1,17 @@
+=== Command: hostnamectl
+
+ Static hostname: home-server-1
+       Icon name: computer-laptop
+         Chassis: laptop 💻
+      Machine ID: fb47cc9721bb4dacbfe81d215d410f55
+         Boot ID: f71f576ad227483da84faa67d0240da9
+Operating System: Ubuntu 24.04.3 LTS
+          Kernel: Linux 6.8.0-88-generic
+    Architecture: x86-64
+ Hardware Vendor: Apple Inc.
+  Hardware Model: Macmini7,1
+Firmware Version: 433.140.2.0.0
+   Firmware Date: Mon 2022-04-18
+    Firmware Age: 3y 7month 1w 3d
+
+=== Exit: 0

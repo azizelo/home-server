@@ -1,0 +1,5 @@
+=== Command: uptime
+
+ 01:56:26 up  6:58,  3 users,  load average: 0.00, 0.05, 0.14
+
+=== Exit: 0

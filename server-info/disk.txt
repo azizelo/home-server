@@ -1,0 +1,11 @@
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              1.6G  5.4M  1.6G   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv   98G   46G   48G  49% /
+tmpfs                              7.8G     0  7.8G   0% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+/dev/sdd                           2.7T   34G  2.6T   2% /mnt/photoprism-storage
+/dev/sdc1                          2.7T  239G  2.4T  10% /mnt/cache
+/dev/sdb                           2.7T  249G  2.4T  10% /mnt/media
+/dev/sda2                          2.0G  198M  1.6G  11% /boot
+/dev/sda1                          1.1G  6.2M  1.1G   1% /boot/efi
+tmpfs                              1.6G   12K  1.6G   1% /run/user/1000

@@ -1,0 +1,13 @@
+=== Command: docker images --all --format {{.Repository}}:{{.Tag}} {{.ID}} {{.Size}}
+
+ghcr.io/open-webui/open-webui:main 38a5047a15ff 4.32GB
+portainer/portainer-ce:latest f07b93e5de34 186MB
+ollama/ollama:latest 0dc6f618ef68 3.75GB
+n8nio/n8n:latest 63b6cd03181f 1.01GB
+mariadb:10.11 3a3c046f59cd 331MB
+curlimages/curl:latest 8b6d9746a2db 22.7MB
+louislam/uptime-kuma:latest f48d816cb746 448MB
+photoprism/photoprism:latest b33470986f3f 2.32GB
+containrrr/watchtower:latest e7dd50d07b86 14.7MB
+
+=== Exit: 0

@@ -1,0 +1,5 @@
+=== Command: ufw status verbose
+
+ERROR: You need to be root to run this script
+
+=== Exit: 1

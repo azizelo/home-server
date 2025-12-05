@@ -1,0 +1,5 @@
+=== Command: id
+
+uid=1000(azizelo) gid=1000(azizelo) groups=1000(azizelo),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),101(lxd),988(docker)
+
+=== Exit: 0

@@ -1,0 +1,5 @@
+=== Command: iptables-save
+
+iptables-save v1.8.10 (nf_tables): Could not fetch rule set generation id: Permission denied (you must be root)
+
+=== Exit: 4
